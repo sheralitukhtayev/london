@@ -67,21 +67,250 @@ header {
     align-items: center;
 }
 
-.header-heading {
+.header-heading , .agency-heading{
     font-family: 'Quicksand' , sans-serif;
     font-size: 30px;
     text-transform: uppercase;
 }
 
-.header-downer-line {
+.under-line {
     width: 40px;
     height: 2px;
     background-color: #000;
 }
 
-.header-heading-under-text {
+.header-heading-under-text{
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
 
+.agency {
+    background-color: rgb(242, 243, 238);
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+}
 
+.agency-text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agency-heading {
+    font-size: 20px;
+}
+
+.agency-heading-under-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.agency-about {
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agency-about-text {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 13px;
+}
+
+.agency-logo {
+    width: 80px;
+    height: 80px;
+    background-image: url('../image/london.jpg');
+    background-size: cover;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.agency-about-img  img{
+    width: 730px;
+}
+
+.line-container {
+    width: 100%;
+    background-color: rgb(242, 243, 238);
+}
+.line {
+    width: 60%;
+    height: 2px;
+    background-color: rgb(148, 148, 148);
+    margin: 0 auto;
+}
+
+.service {
+    background-color: rgb(242, 243, 238);
+    padding: 100px 0;
+}
+
+.service-heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-heading {
+    width: 15%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service-about {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-about-first, .service-about-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-about-content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+.service-about-content-img {
+    width: 30%;
+}
+
+.service-about-content-heading {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.service-about-content-text {
+    font-family: 'Comfortaa' , cursive;
+    text-align: center;
+}
+
+.clients {
+    background-color: rgb(242, 243, 238);
+    padding: 100px 0;
+}
+
+.clients-heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients-heading {
+    width: 15%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clients-company-logos {
+    margin-top: 100px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-company-logo {
+    width: 15%;
+}
+
+.clients-company-logo-img {
+    width: 90%;
+}
+
+.small-line {
+    width: 20%;
+    height: 2px;
+    background-color: rgb(148, 148, 148);
+    margin: 0 auto;
+}
+
+.comment {
+    background-color: rgb(242, 243, 238);
+    padding: 150px 0;
+}
+
+.comment-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.comment-heading {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    color: rgb(148, 148, 148);
+}
+
+.comment-heading-under-text {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(114, 114, 114, 0.438);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.comment-heading-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+footer {
+    background-color:  rgb(242, 243, 238);
+    width: 100%;
+    padding: 30px 0;
+}
+
+.footer-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(148, 148, 148);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo-under-number {
+    font-family: 'Quicksand', cursive;
+    font-size: 20px;
+}
+
+.social-icons {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon-img {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    color: white;
+}
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Quicksand', sans-serif; */
