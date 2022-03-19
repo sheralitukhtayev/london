@@ -314,7 +314,7 @@ footer {
 
 
 /* ----Mobile----- */
- @media (max-width: 450px) {
+ @media (max-width: 600px) {
      .container {
         width: 95%;
         margin: 0 auto;
@@ -455,6 +455,316 @@ footer {
         height: 20px;
     }
  }
+
+
+
+ /* laptop screen */
+
+ @media (min-width: 601px) and (max-width: 992px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+     }
+
+     .header-upper {
+         display: flex;
+     }
+
+     .logo {
+        width: 30px;
+        height: 40px;
+     }
+
+     .nav-bar {
+        width: 80%;
+        margin: 10px auto;
+     }
+
+     .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .header-heading {
+        font-size: 20px;
+    }
+
+    .under-line {
+        width: 10%;
+    }
+
+    .header-heading-under-text {
+        font-size: 23px;
+    }
+
+    .agency-text {
+        text-align: center;
+    }
+
+    .agency-heading {
+        font-size: 20px;
+    }
+
+    .agency-heading-under-text {
+        font-size: 12px;
+    }
+
+    .agency-logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .agency-about-under-text {
+        font-size: 15px;
+    }
+
+    .agency-about{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .agency-about-img img {
+        width: 100%;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .service-heading-text {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+    } 
+
+    .service-heading {
+        font-size: 20px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .service-about {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .service-about-first {
+        width: 100%;
+    }
+
+    .service-about-content {
+        width: 30%;
+    }
+
+    .service-about-content-img {
+        width: 50%;
+    }
+
+    .service-about-content-heading {
+        font-size: 20px;
+    }
+
+    .service-about-content-text {
+        font-size: 13px;
+    }
+
+    .clients-heading{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .clients-company-logos {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .comment-heading {
+        font-size: 25px;
+    }
+
+    .comment-heading-text {
+        font-size: 15px;
+    }
+
+    .footer-logo-under-number {
+        font-size: 13px;
+    }
+    .social-icons {
+        width: 70%;
+        float: right;
+    }
+
+    .social-icon-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-logo-under-number {
+        font-size: 20px;
+    }
+} 
+
+
+
+/* large screen ; PC  */
+
+@media (min-width: 993px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+     }
+
+     .header-upper {
+         flex-direction: row;
+         justify-content: space-between;
+     }
+
+     .logo {
+        width: 90px;
+        height: 90px;
+     }
+
+     .nav-bar {
+        width: 60%;
+        margin: 10px auto;
+     }
+
+     .nav-bar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .nav-bar ul li a {
+        font-size: 25px;
+    }
+
+    .header-heading {
+        font-size: 30px;
+    }
+
+    .under-line {
+        width: 10%;
+    }
+
+    .header-heading-under-text {
+        font-size: 30px;
+    }
+
+    .agency-text {
+        text-align: center;
+    }
+
+    .agency-heading {
+        font-size: 25px;
+    }
+
+    .agency-heading-under-text {
+        font-size: 20px;
+    }
+
+    .agency-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .agency-about-under-text {
+        font-size: 20px;
+    }
+
+    .agency-about{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .agency-about-img img {
+        width: 95%;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .service-heading-text {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+    } 
+
+    .service-heading {
+        font-size: 25px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .service-about {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .service-about-first {
+        width: 90%;
+    }
+
+    .service-about-content {
+        width: 30%;
+    }
+
+    .service-about-content-img {
+        width: 35%;
+    }
+
+    .service-about-content-heading {
+        font-size: 30px;
+    }
+
+    .service-about-content-text {
+        font-size: 20px;
+    }
+
+    .clients-heading{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .clients-company-logos {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .comment-heading {
+        font-size: 30px;
+    }
+
+    .comment-heading-text {
+        font-size: 25px;
+    }
+
+    .footer-logo-under-number {
+        font-size: 13px;
+    }
+    .social-icons {
+        width: 40%;
+        float: right;
+    }
+
+    .social-icon-img {
+        width: 10%;
+        height: 20%;
+    }
+}
+ 
 /* font-family: 'Comfortaa', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Quicksand', sans-serif; */
