@@ -311,6 +311,150 @@ footer {
     background-size: cover;
     color: white;
 }
+
+
+/* ----Mobile----- */
+ @media (max-width: 450px) {
+     .container {
+        width: 95%;
+        margin: 0 auto;
+     }
+
+     .header-upper {
+         flex-direction: column;
+     }
+
+     .logo {
+        width: 30px;
+        height: 40px;
+     }
+
+     .nav-bar {
+        width: 50%;
+        margin: 10px auto;
+     }
+
+     .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .header-heading {
+        font-size: 13px;
+    }
+
+    .under-line {
+        width: 10%;
+    }
+
+    .header-heading-under-text {
+        font-size: 13px;
+    }
+
+    .agency-text {
+        text-align: center;
+    }
+
+    .agency-heading {
+        font-size: 12px;
+    }
+
+    .agency-heading-under-text {
+        font-size: 12px;
+    }
+
+    .agency-logo {
+        width: 40px;
+        height: 50px;
+    }
+
+    .agency-about-under-text {
+        font-size: 10px;
+    }
+
+    .agency-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .agency-about-text {
+        margin-bottom: 20px;
+    }
+    
+    .agency-about-img img {
+        width: 90%;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .service-heading-text {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+    } 
+
+    .service-heading {
+        font-size: 12px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .service-about {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .service-about-first {
+        width: 90%;
+    }
+
+    .service-about-content {
+        width: 30%;
+    }
+
+    .service-about-content-heading {
+        font-size: 13px;
+    }
+
+    .service-about-content-text {
+        font-size: 10px;
+    }
+
+    .clients-heading{
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .clients-company-logos {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .comment-heading-text {
+        font-size: 13px;
+    }
+
+    .footer-logo-under-number {
+        font-size: 13px;
+    }
+    .social-icons {
+        width: 50%;
+        float: right;
+    }
+
+    .social-icon-img {
+        width: 10%;
+        height: 20px;
+    }
+ }
 /* font-family: 'Comfortaa', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Quicksand', sans-serif; */
